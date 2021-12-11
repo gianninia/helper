@@ -1,4 +1,4 @@
-package me.giannini.misc.helper;
+package me.giannini.misc.helper.concurrent;
 
 import static java.util.stream.Collectors.toList;
 
