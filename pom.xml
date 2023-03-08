@@ -13,9 +13,7 @@
         <artifactId>maven-compiler-plugin</artifactId>
         <version>3.8.0</version>
         <configuration>
-          <compilerVersion>1.8</compilerVersion>
-          <source>1.8</source>
-          <target>1.8</target>
+          <release>11</release>
         </configuration>
       </plugin>
     </plugins>
@@ -59,6 +57,12 @@
       <artifactId>mockito-junit-jupiter</artifactId>
       <scope>test</scope>
       <version>2.25.0</version>
+    </dependency>
+    <dependency>
+      <groupId>nl.jqno.equalsverifier</groupId>
+      <artifactId>equalsverifier</artifactId>
+      <scope>test</scope>
+      <version>3.14</version>
     </dependency>
     <dependency>
       <groupId>com.github.javafaker</groupId>
